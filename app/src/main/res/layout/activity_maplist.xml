@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/miami"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/miami"
+                android:backgroundTintMode="screen"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="miamiInfo"
+                android:text="Miami"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/satellite"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/satellite"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="satelliteInfo"
+                android:text="Satellite"
+                android:textAlignment="center"
+                android:textColor="#656464"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/moscow"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/moscow"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="moscowInfo"
+                android:text="Moscow"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/cartel"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/cartel"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="cartelInfo"
+                android:text="Cartel"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/armada"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/armada"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="armadaInfo"
+                android:text="Armada"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/crossroads"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/cross"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="crossroadsInfo"
+                android:text="Crossroads"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/checkmate"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/checkmate"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="checkmateInfo"
+                android:text="Checkmate"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/garrison"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/garrison"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="garrisonInfo"
+                android:text="Garrison"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/nuketown"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/nnuke"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="nuketownInfo"
+                android:text="Nuketown '84"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/raid"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/raid"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="raidInfo"
+                android:text="Raid"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/thepines"
+                android:layout_width="match_parent"
+                android:layout_height="133sp"
+                android:background="@drawable/pines"
+                android:fontFamily="@font/maven_pro_medium"
+                android:onClick="thePinesInfo"
+                android:text="The Pines"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
